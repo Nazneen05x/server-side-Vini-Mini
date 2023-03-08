@@ -1,39 +1,46 @@
-// Importeer express uit de node_modules map
-import express, { response } from "express";
+import express from 'express'
 
-const url = 'https://whois.fdnd.nl/api/v1/squad/'
+const url = 'https://api.programma.fdnd.nl/api/v1'
 
-// Maak een nieuwe express app aan
-const app = express();
+// Maak een nieuwe express app
+const app = express()
 
-// Stel ejs in als template engine en geef de 'views' map door
-app.set("view engine", "ejs");
-app.set("views", "./views");
-
-// Gebruik de map 'public' voor statische resources
-app.use(express.static("public"));
+// Stel in hoe we express gebruiken
+app.set('view engine', 'ejs')
+app.set('views', './views')
+app.use(express.static('public'))
 
 // Maak een route voor de index
 app.get('/', (request, response) => {
-  console.log(request.query.squad)
+  let semesterUrl = url + '/semesters'
 
-  let slug = request.query.squad || 'squad-b-2022'
-  let orderBy = request.query.orderBy || 'name'
-  let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
-
-  fetchJson(squadUrl).then((data) => {
+  fetchJson(semesterUrl).then((data) => {
     response.render('index', data)
   })
 })
 
-// Stel het poortnummer in waar express op gaat luisteren
-app.set("port", process.env.PORT || 8000);
+app.get('/sprint', (request, response) => {
+  let slug = request.query.sprintSlug || 'your-tribe'
+  let sprintUrl = url + '/sprint/' + slug
+  fetchJson(sprintUrl).then((data) => {
+    // console.log(data)
+    response.render('sprint', data)
+  })
+})
 
-// Start express op, haal het ingestelde poortnummer op
-app.listen(app.get("port"), function () {
-  // Toon een bericht in de console en geef het poortnummer door
-  console.log(`Application started on http://localhost:${app.get("port")}`);
-});
+app.get('/over', (request, response) => {
+  response.render('over')
+})
+
+app.get('/contact', (request, response) => {
+  response.render('contact')
+})
+
+// Stel het poortnummer in en start express
+app.set('port', process.env.PORT || 8000)
+app.listen(app.get('port'), function () {
+  console.log(`Application started on http://localhost:${app.get('port')}`)
+})
 
 /**
  * Wraps the fetch api and returns the response body parsed through json
