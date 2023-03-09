@@ -12,7 +12,7 @@
 }
 
 
-/* -----HEAD STYLING----- */
+/* -----HEADER/MENU STYLING----- */
 
 .aankoop_banner{
     background-color: var(--yellow);
@@ -57,3 +57,8 @@ nav {
 
 /* -----FOOTER STYLING----- */
 
+.copyright{
+    margin-top: 31em;
+    margin-left: 85em;
+    font-size: 13px;
+}
