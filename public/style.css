@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: montserrat, sans-serif, Helvetica; 
+}
+
+
+
+
+
+/* -----FOOTER STYLING----- */
+
+ul{
+ margin: 0em;
+ padding: 1em;
+ list-style-type: none;
+
+}
+
+li{
+    display: flex;
+}
