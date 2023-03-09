@@ -58,7 +58,14 @@ nav {
 /* -----FOOTER STYLING----- */
 
 .copyright{
-    margin-top: 31em;
+    margin-top: 15em;
     margin-left: 85em;
     font-size: 13px;
+}
+
+
+footer > ul{
+    display: flexbox;
+
+
 }
