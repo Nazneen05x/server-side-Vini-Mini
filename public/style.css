@@ -10,19 +10,3 @@
 
 /* -----FOOTER STYLING----- */
 
-ul{
- margin: 0em;
- padding: 1em;
- list-style-type: none;
-
-}
-
-li{
-    display: flex;
-}
-
-p{
-    margin-top: 28em;
-    margin-left: 70em;
-    font-size: 15px;
-}
