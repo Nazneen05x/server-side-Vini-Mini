@@ -5,8 +5,24 @@
 }
 
 
+/* -----CUSTOM PROPERTIES----- */
+
+:root{
+    --yellow: #F4EB34;
+}
 
 
+/* -----HEAD STYLING----- */
+
+.aankoop_banner{
+    background-color: var(--yellow);
+    padding: 1em;
+}
+
+.verzending_banner{
+    margin-left: 13em;
+    
+}
 
 /* -----FOOTER STYLING----- */
 
