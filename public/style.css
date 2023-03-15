@@ -9,16 +9,35 @@
 
 :root{
     --yellow: #F4EB34;
+    --Blue: #73AEA6;
 }
 
 
 /* -----MAIN CONTENT STYLING----- */
 
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 5em;
+}
 
+.content_producten{
+    width: 20em;
+    height: 21em;
+    border: 2px solid var(--Blue);
+    border-radius: 0.5em;   
+}
 
-
-
-
+button{
+    border-radius: 1em;
+    margin-top: 20em;
+    margin-left: 6em;
+    padding: 1em;
+    border: none;
+    background-color: var(--Blue);
+    color: white;
+}
 
 
 
