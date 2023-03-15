@@ -1,6 +1,6 @@
 >  [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# overzichtspagina voedingssupplement - Vini Mini 🥜 
+# ✨ Overzichtspagina voedingssupplement✨ - Vini Mini 🥚 
 
 > #23 Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit
 
