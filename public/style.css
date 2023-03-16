@@ -45,6 +45,7 @@ a{
     border: none;
     background-color: var(--Blue);
     color: white;
+    text-decoration: none;
 }
 
 
