@@ -33,10 +33,10 @@
     border-radius: 0.5em;   
 }
 
-/* .article-img{
-    width: 187px;
+.article-img{
+    height: 74%;
     margin-left: 4em;
-} */
+} 
 
 
 a{
