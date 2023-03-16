@@ -33,11 +33,15 @@
     border-radius: 0.5em;   
 }
 
+.article-img{
+    width: 187px;
+    margin-left: 4em;
+}
+
 
 a{
     border-radius: 1em;
-    /* margin-top: 20em; */
-    margin-left: 6em;
+    margin-left: 5em;
     padding: 1em;
     border: none;
     background-color: var(--Blue);
