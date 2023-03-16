@@ -17,11 +17,12 @@
 /* -----MAIN CONTENT STYLING----- */
 
 .content{
-    display: flex;
+    display: grid;
     justify-content: center;
     margin-top: 2em;
     margin-left: -2em;
     gap: 5em;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 
@@ -33,9 +34,9 @@
 }
 
 
-button{
+a{
     border-radius: 1em;
-    margin-top: 20em;
+    /* margin-top: 20em; */
     margin-left: 6em;
     padding: 1em;
     border: none;
