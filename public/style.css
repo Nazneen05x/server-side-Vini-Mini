@@ -20,7 +20,7 @@
     display: grid;
     justify-content: center;
     margin-top: 2em;
-    margin-left: -2em;
+    margin-left: 4em;
     gap: 5em;
     grid-template-columns: repeat(3, 1fr);
 }
