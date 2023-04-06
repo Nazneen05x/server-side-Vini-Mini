@@ -16,6 +16,13 @@
 
 /* -----MAIN CONTENT STYLING----- */
 
+.title {
+    color: var(--Blue);
+    margin-left: 10em;
+    margin-top: -3em;
+    font-size: 53px;
+    position: absolute;
+}
 .content{
     display: grid;
     justify-content: center;
