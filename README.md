@@ -43,6 +43,7 @@ Voor de user story heb ik een overzichtspagina gemaakt. Ik heb alle alergenen we
 <li>https://www.google.com</li>
 <li>https://www.cyclic.sh/</li>
 </ul>
+
 ## Licentie 🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
