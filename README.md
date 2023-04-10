@@ -38,7 +38,7 @@ Deze overzichtspagina is gemaakt met Node.js, Express, EJs, CSS en Javascript. D
 Voor de user story heb ik een overzichtspagina gemaakt. Ik heb alle alergenen weergeven op de overzichtspagina. Om de producten te kunnen bekijken druk je op de button. Op dit moment kan je alleen de ei produceten bekijken.
 ## Bronnen  🌐
 <ul>
-<li>https://whois.fdnd.nl</li>
+<li>https://api.vinimini.fdnd.nl</li>
 <li>https://www.figma.com</li>
 <li>https://www.google.com</li>
 <li>https://www.cyclic.sh/</li>
