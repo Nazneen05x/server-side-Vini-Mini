@@ -1,8 +1,10 @@
 >  [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨ Overzichtspagina voedingssupplement✨ 
+<img width="1438" alt="Scherm­afbeelding 2023-04-10 om 14 59 52" src="https://user-images.githubusercontent.com/112861261/230906018-6822208f-ab40-45cb-936b-3c43424bd6dc.png">
 
-> #23 Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit
+
+
 
  
 
@@ -16,19 +18,31 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📑
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+> #23 Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit
 
 ## Kenmerken 🖇️
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Deze overzichtspagina is gemaakt met Node.js, Express, EJs, CSS en Javascript. Data (Vini Mini data) uit de WHOIS API.
 
 ## Installatie 🛠️
+1. Installeer Node 18.14.0 LTS
+2. Fork deze leertaak
+3. Code klonen naar Github Desktop
+4. Code open in VScode of andere editor
+5. Terminal open
+6. Npm install (typen in je terminal, daarna enter druken)
+7. Npm start ( na het installeren, type je npm start in je terminal)
+8. Localhost:4000 (live link om je website te zien, link van de server)
+9. Project live zetten met cyclic
 
 ## Gebruik 📱
-
+Voor de user story heb ik een overzichtspagina gemaakt. Ik heb alle alergenen weergeven op de overzichtspagina. Om de producten te kunnen bekijken druk je op de button. Op dit moment kan je alleen de ei produceten bekijken.
 ## Bronnen  🌐
-
+<ul>
+<li>https://whois.fdnd.nl</li>
+<li>https://www.figma.com</li>
+<li>https://www.google.com</li>
+<li>https://www.cyclic.sh/</li>
+</ul>
 ## Licentie 🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
